@@ -1,1 +1,3 @@
-/* styles omitted for brevity in generation */
+.modal.hidden {
+  display: none;
+}
