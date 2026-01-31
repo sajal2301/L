@@ -1,0 +1,1 @@
+// JS logic omitted for brevity in generation
