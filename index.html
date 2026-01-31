@@ -6,6 +6,7 @@
     <title>Komal ❤️</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <main class="wrap">
       <h1 class="title">Komal, Do you love me?</h1>
@@ -19,10 +20,11 @@
       <p id="stats" class="stats"></p>
     </main>
 
-    <div id="imageModal" class="modal hidden">
-      <div class="modal-content">
-        <span id="closeModal" class="close">×</span>
-        <img src="images/love.jpg" alt="Love" />
+    <!-- Modal (hidden by default) -->
+    <div id="imageModal" class="modal hidden" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button id="closeModal" class="close" aria-label="Close">×</button>
+        <img id="loveImg" src="images/love.jpg" alt="Love" />
       </div>
     </div>
 
