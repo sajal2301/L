@@ -159,7 +159,7 @@ window.addEventListener("load", setImageFallbacks);
 // ---- Click handlers ----
 if (requireEl(yesBtn, "yesBtn") && requireEl(modal, "imageModal")) {
   yesBtn.addEventListener("click", () => {
-    if (msg) msg.textContent = "Yay!! ❤️ Komal loves you 😄";
+    if (msg) msg.textContent = "Yayy!";
 
     const clicks = getClicks() + 1;
     setClicks(clicks);
